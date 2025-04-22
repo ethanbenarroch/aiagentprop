@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-slate-900 text-white py-12 md:py-16">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 md:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
           <div className="lg:col-span-2">
             <div className="flex items-center mb-4">
               <MessageSquareText className="h-8 w-8 text-cyan-400" />
@@ -32,42 +32,6 @@ const Footer: React.FC = () => {
               </a>
             </div>
           </div>
-          
-        {
-          <div>
-            <h3 className="text-white font-semibold mb-4">Company</h3>
-            <ul className="space-y-3">
-              {['About', 'Blog', 'Press'].map((item) => (
-                <li key={item}>
-                  <Button 
-                    variant="outlined" 
-                    size="sm"
-                    className="w-full justify-start border-0 hover:bg-white/5 text-gray-400 hover:text-cyan-400"
-                  >
-                    {item}
-                  </Button>
-                </li>
-              ))}
-            </ul>
-          </div>
-          
-          <div>
-            <h3 className="text-white font-semibold mb-4">Resources</h3>
-            <ul className="space-y-3">
-              {['Documentation', 'Help Center', 'Guides', 'API Status'].map((item) => (
-                <li key={item}>
-                  <Button 
-                    variant="outlined" 
-                    size="sm"
-                    className="w-full justify-start border-0 hover:bg-white/5 text-gray-400 hover:text-cyan-400"
-                  >
-                    {item}
-                  </Button>
-                </li>
-              ))}
-            </ul>
-          </div> 
-      }
           
           <div>
             <h3 className="text-white font-semibold mb-4">Subscribe</h3>
