@@ -17,20 +17,6 @@ const Footer: React.FC = () => {
             <p className="text-gray-400 mb-6 max-w-md">
               Revolutionizing property management with AI-powered solutions. Automate guest communications and deliver exceptional experiences.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-cyan-400 transition-colors">
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-cyan-400 transition-colors">
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-cyan-400 transition-colors">
-                <Instagram className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-cyan-400 transition-colors">
-                <Linkedin className="h-5 w-5" />
-              </a>
-            </div>
           </div>
           
           <div>
