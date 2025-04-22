@@ -18,20 +18,6 @@ const Footer: React.FC = () => {
               Revolutionizing property management with AI-powered solutions. Automate guest communications and deliver exceptional experiences.
             </p>
           </div>
-          
-          <div>
-            <h3 className="text-white font-semibold mb-4">Subscribe</h3>
-            <p className="text-gray-400 mb-4">Get the latest news and updates</p>
-            <div className="flex">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="px-4 py-2 w-full rounded-l-md focus:outline-none focus:ring-2 focus:ring-cyan-400 bg-slate-800 text-gray-200"
-              />
-              <button className="bg-cyan-500 hover:bg-cyan-600 px-3 rounded-r-md flex items-center justify-center transition-colors">
-                <ArrowRight className="h-5 w-5" />
-              </button>
-            </div>
           </div>
         </div>
         
