@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
             </div>
           </div>
           
-          <!--
+        {
           <div>
             <h3 className="text-white font-semibold mb-4">Company</h3>
             <ul className="space-y-3">
@@ -67,7 +67,7 @@ const Footer: React.FC = () => {
               ))}
             </ul>
           </div> 
-          -->
+      }
           
           <div>
             <h3 className="text-white font-semibold mb-4">Subscribe</h3>
