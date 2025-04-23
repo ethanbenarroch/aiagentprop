@@ -101,6 +101,7 @@ const Pricing: React.FC = () => {
             variant="outlined"
             to="/get-started"
             className="inline-flex items-center justify-center"
+            onClick={handleEmailClick}
           >
             Contact Sales
           </Button>
