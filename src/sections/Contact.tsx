@@ -22,9 +22,6 @@ const Contact = () => {
 
               <div className="space-y-6">
                 <div className="flex items-center justify-center"> {/* Centering this div */}
-                  <div className="flex-shrink-0">
-                    <Mail className="h-6 w-6 text-indigo-600" />
-                  </div>
                   <div className="ml-4">
                     <h3 className="text-lg font-medium text-gray-900">Email</h3>
                     <p className="mt-1 text-gray-600">
