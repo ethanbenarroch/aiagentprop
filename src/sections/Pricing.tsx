@@ -87,8 +87,8 @@ const Pricing: React.FC = () => {
               description={plan.description}
               features={plan.features}
               isPopular={plan.isPopular}
-              buttonText="Get Started"
-              onClick={handleEmailClick}
+              //buttonText="Get Started"
+              //onClick={handleEmailClick}
             />
           ))}
         </div>
