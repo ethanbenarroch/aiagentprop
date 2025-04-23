@@ -66,8 +66,8 @@ const Testimonials: React.FC = () => {
           <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
             Join thousands of successful property managers who are saving time, increasing revenue, and growing their businesses with PropAI.
           </p>
-          <Button size="lg">
-            Start Your Free Trial
+          <Button size="lg" onClick={handleEmailClick} >
+            Contact us !
           </Button>
         </div>
       </div>
