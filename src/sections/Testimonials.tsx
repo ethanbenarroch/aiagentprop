@@ -31,7 +31,7 @@ const Testimonials: React.FC = () => {
       content: 'The chat automation feature is worth the investment ! Our colleagues now spend more time looking for new propreties to manage, and don't waste time answering basics questions of the customers.',
       rating: 4,
       image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400',
-    },
+    }
   ];
 
   return (
