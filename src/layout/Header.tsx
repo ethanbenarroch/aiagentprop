@@ -42,7 +42,7 @@ const Header: React.FC = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            {['Features', 'Pricing', 'Testimonials', 'FAQ', 'Contact'].map(
+            {['Features', 'Pricing', 'Testimonials', 'FAQ'].map(
               (item) => (
                 <Link
                   key={item}
@@ -91,7 +91,7 @@ const Header: React.FC = () => {
       {isOpen && (
         <div className="md:hidden bg-white shadow-xl rounded-b-xl animate-slideDown">
           <div className="px-4 pt-2 pb-4 space-y-1">
-            {['Features', 'Pricing', 'Testimonials', 'FAQ', 'Contact'].map(
+            {['Features', 'Pricing', 'Testimonials', 'FAQ'].map(
               (item) => (
                 <a
                   key={item}
