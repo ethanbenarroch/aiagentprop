@@ -3,6 +3,10 @@ import PricingCard from '../components/PricingCard';
 import Button from '../components/Button';
 
 const Pricing: React.FC = () => {
+  const handleEmailClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    window.location.href = 'mailto:aiagentproprety@gmail.com?subject=request';
+  };
   const plans = [
     {
       title: 'Basic',
@@ -101,6 +105,7 @@ const Pricing: React.FC = () => {
             variant="outlined"
             to="/get-started"
             className="inline-flex items-center justify-center"
+            onClick={handleEmailClick}
           >
             Contact Sales
           </Button>
