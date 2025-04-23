@@ -29,12 +29,12 @@ const Hero: React.FC = () => {
           </h1>
           
           <p className="text-lg md:text-xl text-white/90 mb-8 max-w-3xl mx-auto">
-            Streamline your rental property business with intelligent AI agents that automate communications, optimize pricing, and handle routine tasks across all your properties.
+            Streamline your rental property business with intelligent AI agents that automate communications and handle routine tasks across all your properties.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10">
             <Button size="lg" className="w-full sm:w-auto" onClick={handleEmailClick}>
-              Get Started Free
+              Get Started For Free
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </div>
