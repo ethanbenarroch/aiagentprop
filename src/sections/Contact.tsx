@@ -4,7 +4,10 @@ import Button from '../components/Button';
 
 const Contact: React.FC = () => {
   return (
- <section id="contact2" className="py-16 md:py-24">
+    <section
+      id="contact2"
+      className="h-screen flex items-center justify-center py-16 md:py-24"
+    >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -16,12 +19,11 @@ const Contact: React.FC = () => {
                 Get in touch with our team
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Have questions about PropAI or need help getting started? Our team is here to assist you with any inquiries or technical support.
+                Have questions about PropAI or need help getting started? Our
+                team is here to assist you with any inquiries or technical
+                support.
               </p>
-              
               <div className="space-y-6">
-               
-                
                 <div className="flex items-start">
                   <div className="flex-shrink-0">
                     <Mail className="h-6 w-6 text-indigo-600" />
@@ -34,11 +36,14 @@ const Contact: React.FC = () => {
                   </div>
                 </div>
               </div>
-              
               <div className="mt-12">
-                <h3 className="text-lg font-medium text-gray-900 mb-4">Office Hours</h3>
+                <h3 className="text-lg font-medium text-gray-900 mb-4">
+                  Office Hours
+                </h3>
                 <div className="space-y-2">
-                  <p className="text-gray-600">Monday - Friday: 9AM - 8PM PST</p>
+                  <p className="text-gray-600">
+                    Monday - Friday: 9AM - 8PM PST
+                  </p>
                   <p className="text-gray-600">Saturday: Closed</p>
                   <p className="text-gray-600">Sunday: 9AM - 4PM PST</p>
                 </div>
