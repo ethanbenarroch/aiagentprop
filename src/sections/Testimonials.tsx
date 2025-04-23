@@ -3,6 +3,10 @@ import TestimonialCard from '../components/TestimonialCard';
 import Button from '../components/Button';
 
 const Testimonials: React.FC = () => {
+  const handleEmailClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    window.location.href = 'mailto:aiagentproprety@gmail.com?subject=request';
+  };
   const testimonials = [
     {
       name: 'Sarah Johnson',
