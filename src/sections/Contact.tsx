@@ -4,13 +4,10 @@ import Button from '../components/Button';
 
 const Contact: React.FC = () => {
   return (
-    <section
-      id="contact2"
-      className="h-screen flex items-center justify-center py-16 md:py-24"
-    >
+    <section id="contact2" className="py-16 md:py-24">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 gap-12"> {/* Removed lg:grid-cols-2 */}
             <div>
               <span className="bg-indigo-100 text-indigo-800 text-sm font-medium px-4 py-1.5 rounded-full">
                 Contact Us
