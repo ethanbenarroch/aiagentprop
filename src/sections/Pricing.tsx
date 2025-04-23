@@ -17,7 +17,7 @@ const Pricing: React.FC = () => {
         { text: 'AI guest response system', included: true },
         { text: 'Basic response templates', included: true },
         { text: 'Single platform integration', included: true },
-        { text: 'Response time analytics', included: true },
+        { text: 'Response time analytics', included: false },
         { text: 'Custom AI training', included: false },
         { text: 'Advanced message routing', included: false },
         { text: 'Multi-language support', included: false },
