@@ -87,7 +87,7 @@ const Pricing: React.FC = () => {
               description={plan.description}
               features={plan.features}
               isPopular={plan.isPopular}
-              hideButton
+              //hideButton
               //buttonText="Get Started"
               //onClick={handleEmailClick}
             />
