@@ -77,22 +77,6 @@ const Pricing: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          {plans.map((plan) => (
-            <PricingCard
-              key={plan.title}
-              title={plan.title}
-              price={plan.price}
-              frequency={plan.frequency}
-              description={plan.description}
-              features={plan.features}
-              isPopular={plan.isPopular}
-              buttonText="Get Started"
-              onClick={handleEmailClick}
-            />
-          ))}
-        </div>
-
         <div className="mt-16 max-w-3xl mx-auto text-center">
           <h3 className="text-xl font-semibold text-gray-900 mb-4">
             Need a custom AI solution?
