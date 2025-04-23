@@ -37,43 +37,15 @@ const Hero: React.FC = () => {
               Get Started Free
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button variant="outlined" size="lg" className="w-full sm:w-auto bg-white/10 border-white/40 text-white hover:bg-white/20" onClick={handleEmailClick}>
-              Book a Demo
-            </Button>
           </div>
           
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-3 text-sm text-white/80">
-            {['14-day free trial', 'No credit card required', '24/7 support'].map((item) => (
+            {['24/7 support'].map((item) => (
               <div key={item} className="flex items-center">
                 <CheckCircle2 className="h-4 w-4 text-purple-400 mr-2" />
                 <span>{item}</span>
               </div>
             ))}
-          </div>
-        </div>
-        
-        <div className="relative bg-gradient-to-br from-black to-purple-950 rounded-xl overflow-hidden shadow-2xl max-w-5xl mx-auto">
-          <div className="aspect-video relative overflow-hidden">
-            <img 
-              src="https://images.pexels.com/photos/3214064/pexels-photo-3214064.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-              alt="AI Property Management Dashboard" 
-              className="w-full h-full object-cover opacity-80"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
-            
-            {/* Play button */}
-            <div className="absolute inset-0 flex items-center justify-center">
-              <button className="w-16 h-16 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center hover:bg-white/30 transition-colors">
-                <div className="w-0 h-0 border-y-8 border-y-transparent border-l-12 border-l-white ml-1"></div>
-              </button>
-            </div>
-            
-            {/* Caption */}
-            <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-              <p className="text-sm uppercase tracking-wider text-purple-400 mb-1">Featured Demo</p>
-              <h3 className="text-xl font-bold mb-2">See PropAI in action</h3>
-              <p className="text-white/80 text-sm">Watch how our AI agents manage guest communications, pricing, and tasks.</p>
-            </div>
           </div>
         </div>
       </div>
