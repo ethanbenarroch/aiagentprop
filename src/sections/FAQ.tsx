@@ -7,13 +7,13 @@ const FAQ: React.FC = () => {
       question: 'How does the AI guest communication work?',
       answer: 'Our AI analyzes the content and context of each guest message and generates personalized responses based on your property details, house rules, and preferences. It can handle inquiries about check-in/out, amenities, local recommendations, and troubleshooting common issues. For complex situations, it will alert you to step in.',
     },
+     {
+      question: 'Who is in charge of the integration?',
+      answer: 'After carefully reviewing your way of managing and the platforms you are using, we will implement the solution for you.',
+    },
     {
       question: 'Can I customize the AI responses?',
       answer: 'Absolutely! You can set your preferred tone of voice, common responses to specific questions, and even create templates for different scenarios. The AI will learn from your edits over time and adapt to your communication style.',
-    },
-    {
-      question: 'How accurate is the dynamic pricing feature?',
-      answer: 'Our dynamic pricing algorithm analyzes over 50 factors including local events, seasonality, day of week, competitor pricing, historical booking patterns, and real-time demand. Most clients see a 15-30% increase in revenue within the first few months of implementation.',
     },
     {
       question: 'Which booking platforms do you integrate with?',
@@ -21,7 +21,7 @@ const FAQ: React.FC = () => {
     },
     {
       question: 'Is there a limit to how many properties I can manage?',
-      answer: 'No, our platform is designed to scale with your business. The Starter plan supports up to 5 properties, Professional up to 15, and Enterprise is unlimited. As you add more properties, the AI becomes more efficient across your entire portfolio.',
+      answer: 'No, our platform is designed to scale with your business.',
     },
     {
       question: 'What kind of support do you provide?',
