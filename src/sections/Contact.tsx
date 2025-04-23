@@ -1,13 +1,12 @@
 import React from 'react';
-import { Mail, MapPin, Phone } from 'lucide-react';
-import Button from '../components/Button';
+import { Mail } from 'lucide-react';
 
-const Contact: React.FC = () => {
+const Contact = () => {
   return (
     <section id="contact2" className="py-16 md:py-24">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <div className="grid grid-cols-1 gap-12"> {/* Removed lg:grid-cols-2 */}
+          <div className="grid grid-cols-1 gap-12">
             <div>
               <span className="bg-indigo-100 text-indigo-800 text-sm font-medium px-4 py-1.5 rounded-full">
                 Contact Us
@@ -20,8 +19,9 @@ const Contact: React.FC = () => {
                 team is here to assist you with any inquiries or technical
                 support.
               </p>
+
               <div className="space-y-6">
-                <div className="flex items-start">
+                <div className="flex items-center justify-center"> {/* Centering this div */}
                   <div className="flex-shrink-0">
                     <Mail className="h-6 w-6 text-indigo-600" />
                   </div>
@@ -33,6 +33,7 @@ const Contact: React.FC = () => {
                   </div>
                 </div>
               </div>
+
               <div className="mt-12">
                 <h3 className="text-lg font-medium text-gray-900 mb-4">
                   Office Hours
