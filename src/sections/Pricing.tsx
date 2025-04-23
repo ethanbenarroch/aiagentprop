@@ -5,7 +5,7 @@ import Button from '../components/Button';
 const Pricing: React.FC = () => {
   const handleEmailClick = (e: React.MouseEvent) => {
     e.preventDefault();
-    window.location.href = 'mailto:aiagentproprety@gmail.com?subject=request';
+    window.location.href = 'mailto:aiagentproprety@gmail.com?subject=Sales request';
   };
   const plans = [
     {
@@ -88,7 +88,7 @@ const Pricing: React.FC = () => {
               features={plan.features}
               isPopular={plan.isPopular}
               buttonText="Get Started"
-              buttonTo="/get-started"
+              onClick={handleEmailClick}
             />
           ))}
         </div>
