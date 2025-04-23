@@ -20,30 +20,7 @@ const Contact: React.FC = () => {
               </p>
               
               <div className="space-y-6">
-                <div className="flex items-start">
-                  <div className="flex-shrink-0">
-                    <MapPin className="h-6 w-6 text-indigo-600" />
-                  </div>
-                  <div className="ml-4">
-                    <h3 className="text-lg font-medium text-gray-900">Our Location</h3>
-                    <p className="mt-1 text-gray-600">
-                      123 Property Lane, Suite 400<br />
-                      San Francisco, CA 94107
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start">
-                  <div className="flex-shrink-0">
-                    <Phone className="h-6 w-6 text-indigo-600" />
-                  </div>
-                  <div className="ml-4">
-                    <h3 className="text-lg font-medium text-gray-900">Phone</h3>
-                    <p className="mt-1 text-gray-600">
-                      +1 (555) 123-4567
-                    </p>
-                  </div>
-                </div>
+               
                 
                 <div className="flex items-start">
                   <div className="flex-shrink-0">
@@ -52,7 +29,7 @@ const Contact: React.FC = () => {
                   <div className="ml-4">
                     <h3 className="text-lg font-medium text-gray-900">Email</h3>
                     <p className="mt-1 text-gray-600">
-                      info@propai.com
+                      aiagentproprety@gmail.com
                     </p>
                   </div>
                 </div>
@@ -61,95 +38,11 @@ const Contact: React.FC = () => {
               <div className="mt-12">
                 <h3 className="text-lg font-medium text-gray-900 mb-4">Office Hours</h3>
                 <div className="space-y-2">
-                  <p className="text-gray-600">Monday - Friday: 9AM - 6PM PST</p>
-                  <p className="text-gray-600">Saturday: 10AM - 4PM PST</p>
-                  <p className="text-gray-600">Sunday: Closed</p>
+                  <p className="text-gray-600">Monday - Friday: 9AM - 8PM PST</p>
+                  <p className="text-gray-600">Saturday: Closed</p>
+                  <p className="text-gray-600">Sunday: 9AM - 4PM PST</p>
                 </div>
               </div>
-            </div>
-            
-            <div className="bg-white rounded-xl shadow-lg p-8">
-              <h3 className="text-xl font-semibold text-gray-900 mb-6">Send us a message</h3>
-              <form>
-                <div className="space-y-6">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                    <div>
-                      <label htmlFor="first-name" className="block text-sm font-medium text-gray-700 mb-1">
-                        First Name
-                      </label>
-                      <input
-                        type="text"
-                        id="first-name"
-                        className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
-                      />
-                    </div>
-                    <div>
-                      <label htmlFor="last-name" className="block text-sm font-medium text-gray-700 mb-1">
-                        Last Name
-                      </label>
-                      <input
-                        type="text"
-                        id="last-name"
-                        className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
-                      />
-                    </div>
-                  </div>
-                  
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
-                      Email
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
-                    />
-                  </div>
-                  
-                  <div>
-                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
-                      Phone
-                    </label>
-                    <input
-                      type="tel"
-                      id="phone"
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
-                    />
-                  </div>
-                  
-                  <div>
-                    <label htmlFor="properties" className="block text-sm font-medium text-gray-700 mb-1">
-                      Number of Properties
-                    </label>
-                    <select
-                      id="properties"
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
-                    >
-                      <option>1-5 properties</option>
-                      <option>6-15 properties</option>
-                      <option>16-50 properties</option>
-                      <option>51+ properties</option>
-                    </select>
-                  </div>
-                  
-                  <div>
-                    <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
-                      Message
-                    </label>
-                    <textarea
-                      id="message"
-                      rows={4}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
-                    ></textarea>
-                  </div>
-                  
-                  <div>
-                    <Button variant="primary" className="w-full">
-                      Send Message
-                    </Button>
-                  </div>
-                </div>
-              </form>
             </div>
           </div>
         </div>
