@@ -14,8 +14,8 @@ interface PricingCardProps {
   description: string;
   features: PricingFeature[];
   isPopular?: boolean;
-  buttonText?: string;
-  buttonTo?: string;
+  //buttonText?: string;
+  //buttonTo?: string;
 }
 
 const PricingCard: React.FC<PricingCardProps> = ({
@@ -25,8 +25,8 @@ const PricingCard: React.FC<PricingCardProps> = ({
   description,
   features,
   isPopular = false,
-  buttonText = 'Get Started',
-  buttonTo = '/get-started',
+  //buttonText = 'Get Started',
+  //buttonTo = '/get-started',
 }) => {
   return (
     <div 
@@ -67,14 +67,6 @@ const PricingCard: React.FC<PricingCardProps> = ({
             </div>
           ))}
         </div>
-        
-        <Button 
-          variant={isPopular ? 'primary' : 'outlined'} 
-          className="w-full"
-          to={buttonTo}
-        >
-          {buttonText}
-        </Button>
       </div>
     </div>
   );
