@@ -3,6 +3,10 @@ import { Menu, X, MessageSquareText } from 'lucide-react';
 import { Link } from '../components/Link';
 
 const Header: React.FC = () => {
+   const handleEmailClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    window.location.href = 'mailto:aiagentproprety@gmail.com?subject=request';
+  };
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
