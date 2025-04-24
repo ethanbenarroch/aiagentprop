@@ -28,7 +28,7 @@ const Testimonials: React.FC = () => {
       name: 'Emma Rodriguez',
       role: 'Operations Manager',
       company: 'Luxury Rentals Inc.',
-      content: 'The chat automation feature is worth the investment ! Our colleagues now spend more time looking for new propreties to manage, and don't waste time answering basics questions of the customers.',
+      content: 'The chat automation feature is worth the investment ! Our colleagues now spend more time looking for new propreties to manage, and do not waste time answering basics questions of the customers.',
       rating: 4,
       image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400',
     }
