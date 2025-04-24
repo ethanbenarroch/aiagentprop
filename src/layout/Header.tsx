@@ -63,6 +63,7 @@ const Header: React.FC = () => {
 
           <div className="hidden md:block">
             <button
+               onClick={handleEmailClick}
               className={`px-5 py-2 rounded-full transition-all duration-200 font-medium ${
                 isScrolled
                   ? 'bg-indigo-900 text-white hover:bg-indigo-800'
